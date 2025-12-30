@@ -10,11 +10,11 @@
 /* -------------- Site config (editable) -------------- */
 const siteConfig = {
   siteName: 'NEG SCHOLARSHIP',
-  contactEmail: 'info@negscholarship.ng',
-  whatsappNumber: '+2348000000000',
-  facebookUrl: 'https://facebook.com/yourpage',
-  instagramUrl: 'https://instagram.com/yourpage',
-  whatsappUrl: 'https://wa.me/2348000000000',
+  contactEmail: 'hammedopeyemi2005@gmail.com',
+  whatsappNumber: '+2349013866694',
+  facebookUrl: 'https://www.facebook.com/share/17azJYGRF4/',
+  instagramUrl: 'https://www.instagram.com/opeyemiabimbolahammed?igsh=MW5razE5eGJocnM5bA==',
+  whatsappUrl: 'https://wa.me/2349013866694',
 };
 
 /* -------------- Scholarship data (25 flashcards) -------------- */
