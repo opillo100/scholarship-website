@@ -23,91 +23,108 @@ const scholarships = [
   // 1-15 copied/expanded from previous set
   {
     id: 'innova-1',
-    title: 'InnovaGenius Solutions Engineering Scholarship',
-    provider: 'InnovaGenius Solutions',
-    field: 'Engineering',
+    title: 'Airtel Africa Foundation Scholarship 2026 — Fully Funded for Nigerian Undergraduates',
+    provider: 'Airtel Africa Foundation',
+    field: 'technology',
     shortDescription: `If you’re a 200 or 300-level engineering student in Nigeria, here’s your chance to secure academic support through the InnovaGenius Solutions Scholarship Programme 2025.`,
-    description: `The program recognizes students who demonstrate strong academic performance, leadership qualities, and commitment to innovation in engineering.`,
+    description: `The scholarship program provides support to 100 undergraduate students enrolled in selected public universities, beginning from their first year (100 Level) and continuing through graduation, provided they maintain strong academic performance.`,
     eligibility: [
-      'Completed InnovaGenius Scholarship Application Form',
-      'A recent academic transcript or result slip',
-      'A statement of purpose (briefly explaining academic goals and how the scholarship will help)',
-      'Any additional documents requested in the online form'
+      'Be a Nigerian citizen.',
+      'Be enrolled in one of the eligible ICT-related programmes. eg- Computer Science, Software Engineering, Cybersecurity,Artificial Intelligence (AI), and others.',
+      'Candidates are required to provide valid academic documents such as O’Level certificates, JAMB results, and their Admission Letter',
+      'Not be a recipient of another major scholarship for the same purpose.'
     ],
-    deadlineText: 'Deadline: 25th December 2025\nApplications received after this date will not be considered.',
-    howToApply: `All applications must be submitted online via the official Google Form link below. Click the link, fill in your details, and upload all required documents.`,
-    applicationLink: 'https://forms.gle/your-google-form-id-here',
+    deadlineText: 'Not stated, but ealry application is advised',
+    howToApply: 'Visit   the application link, fill in your details, and submit the required documents as specified.',
+    applicationLink: 'https://candidate.scholastica.ng/schemes/airtelfellowship2025',
     whyApply: [
-      'Financial support for engineering students',
-      'Opportunity to connect with industry professionals',
-      'Recognition for your academic excellence',
+      'Tech Skill Development: It supports studies in ICT and innovation-driven disciplines.',
+      'Career Pathways: Scholarship beneficiaries gain enhanced access to internships, innovation hubs, and mentorship opportunities that strengthen their professional development.',
+      'Reduced Financial Stress: The scholarship fully covers tuition fees and living expenses, easing the financial burden on students',
       'Boost to your resume and professional development'
     ]
   },
   {
     id: 'techleap-2',
-    title: 'TechLeap Undergraduate Award',
+    title: 'AICA * DATACamp scholarship(fully funded)',
     provider: 'TechLeap Foundation',
     field: 'STEM',
-    shortDescription: 'Support for outstanding STEM undergraduates with mentorship and a cash award.',
-    description: 'TechLeap awards talented undergraduates pursuing computing, electronics or AI who show leadership and innovation.',
+    shortDescription: 'The AICA × DATACamp is offering african students and tech enthusiasts free access to premium learning platform.',
+    description: 'The program is program to teach the folloing programme- Data science, Data analysis, Data Engineering, Manchine learning Engineering, AI, Cloud Data tools, python & SQL and manny more.',
     eligibility: ['Current undergraduate (100-400 level)','Minimum 3.0 GPA or equivalent','Demonstrated interest in technology or projects'],
-    deadlineText: 'Deadline: 30th September 2025',
-    howToApply: 'Submit the online form and upload a short project portfolio.',
-    applicationLink: 'https://example.org/techleap-apply',
-    whyApply: ['Mentorship','Stipend','Industry internship opportunities']
+    deadlineText: 'Deadline: 17th January 2026',
+    howToApply: 'open the application link, fill your personal and education details, and follow the prompts',
+    applicationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfLT527aJae0XJPXEo8Xii_hyeGAsVtBX1RbcHSZOGmMHY9wA/viewform',
+    whyApply: ['Mentorship','6 month premium access','certifications and Job board','Real-world projects']
   },
   {
     id: 'creative-3',
-    title: 'Creative Minds Arts Grant',
-    provider: 'Creative Minds',
-    field: 'Arts',
-    shortDescription: 'Funding for student-led arts and community projects (portfolio-based).',
-    description: 'Creative Minds supports students in visual and performing arts to run community projects and exhibitions.',
-    eligibility: ['Undergraduate or diploma student in the arts','Portfolio of recent work','Project proposal describing impact and budget'],
-    deadlineText: 'Deadline: 15th October 2025',
-    howToApply: 'Complete the online application and upload your portfolio (images or PDF).',
-    applicationLink: 'https://example.org/creative-apply',
-    whyApply: ['Project funding','Exhibition support','Networking with curators']
+    title: 'Charles University Development Scholarship 2027',
+    provider: 'Charles university',
+    field: 'All fields',
+    shortDescription: 'This scholarship is tailored for international students from developing countries, providing financial assistance to those pursuing undergraduate or postgraduate degree programs at Charles University in Prague.',
+    description: 'Dreaming of world-class education in the heart of Europe? The Charles University Development Scholarship 2027 opens the door to exceptional academic opportunities in the Czech Republic — a country celebrated for its affordability, cultural richness, and vibrant student life.',
+    eligibility: 'All international students from developing countries applying for undergraduate or postgraduate degree programs at Charles University.',
+    deadlineText: 'Deadline:  30th april 2026',
+    howToApply:['Applications must be submitted via email to admissions@fsv.cuni.cz.',
+       'Applications must be submitted in full, including all required documents. All documents must be written in English or accompanied by certified translations',
+      'The application has to include the following 2 attachments:',
+    'Applicants must submit a completed motivation essay of no more than 1,000 words, outlining their need for financial support and describing the academic and personal goals they hope to achieve through their studies at Charles University.',
+  'one letter of recommendation from a Charles University academic who knows you from your studies at the Faculty and is familiar with your situation (in case of current students) or from an academic, who knows you from your previous studies, including confirmation of your financial need (in case of new applicants)'] ,
+    applicationLink: 'https://fsv.cuni.cz/en/study/scholarships-funding-and-fees/fsv-uk-scholars-program',
+    whyApply: ['A sum award of CZK 75,000 (approx. €3,000)','living expenses support and travel costs','opportunity to live and study in Prague','Access to world-class education and a strong international alumni network']
   },
   {
     id: 'global-4',
-    title: 'Global Leaders Fellowship',
+    title: 'Idris Ajiboye Foundation Scholarship 2026',
     provider: 'World Scholars',
-    field: 'International Studies',
-    shortDescription: 'Graduate fellowship for students pursuing international development and leadership studies.',
-    description: 'World Scholars awards fellowships to graduates with strong leadership potential and a commitment to global development.',
-    eligibility: ['Graduate applicants (Masters or PhD)','Proven leadership experience','Research or project proposal aligned with global development'],
-    deadlineText: 'Deadline: 1st November 2025',
-    howToApply: 'Apply via the World Scholars portal and provide references.',
-    applicationLink: 'https://example.org/global-fellowship',
+    field: 'all field',
+    shortDescription: 'The Idris Ajiboye Foundation aims to support oustanding Nigerians to achieve thier academic acheivement.',
+    description: 'The foundations also seeks to provide assistance for the underprivildged people in support for their support. The foundation will award a sum of ₦100,100 to (10) selected undergraduate student enrolled in accredited indtitutions and living in Nigeria',
+    eligibility: ['resides and sschool within Nigeria','be enroll in accredited tertiary institution in Nigeria ','submit all required documents before deadline'],
+    deadlineText: 'Deadline: January 31st, 2026',
+    howToApply: 'Apply and provide the require documents.',
+    applicationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdZV-0vNyV_-6a7vlY_5nYJpf-i4PXuB143iksJ4Gu9U2aXLg/viewform?pli=1',
     whyApply: ['Research funding','Global network','Mentorship & placements']
   },
   {
-    id: 'agripower-5',
-    title: 'AgriPower Student Award',
+    id: 'Bridge foundation Scholarship programme for undergraduates',
+    title: 'Bridge programme',
     provider: 'AgriPower Initiative',
     field: 'Agriculture',
-    shortDescription: 'Grant and mentorship for students with sustainable agriculture projects.',
-    description: 'AgriPower funds student projects focused on sustainable farming, agri-tech and rural development.',
-    eligibility: ['Undergraduate students with a proposed project','Project proposal and budget','Local community engagement plan'],
-    deadlineText: 'Deadline: 10th August 2025',
-    howToApply: 'Submit project proposal via the AgriPower portal.',
-    applicationLink: 'https://example.org/agripower-apply',
-    whyApply: ['Project funding','Field mentorship','Pilot opportunities']
+    shortDescription: 'the bridge foundation scholarship programme is a ₦700m fund that will provide the tution fee as well as monthly stipends to undergraduate students in Nigerian universities.',
+    description: 'The Bridge Scholarship Programme is a fully funded initiative in Nigeria that provides tuition, living stipends, and mentorship to indigent or outstanding university students, with the goal of empowering future leaders in STEM and business. It is offered annually and continues to support recipients until graduation, including career development opportunities afterward.',
+    eligibility: ['Be 100 and 200 level students from partner universities across Nigeria','Possess and submit academic transcripts (200 Level students)','Submit UTME and Post-UTME score (100 level students)','Pass the Screening Examination','Provide recommendation letters from the department & the university','Have a clean disciplinary record from Students’ Affairs','Submit a 1-minute video expression of interest'],
+    deadlineText: 'Deadline: 15th January 2026',
+    howToApply: 'Submit Complete Application Form, Academic Transcripts, UTME and Post-UTME Result, Recommendation Letter, 1-minute video for expression of interest.',
+    applicationLink: 'https://wealthbridge.com.ng/bridgefoundation',
+    whyApply: ['700m Scholarship fund for the winners','tution','accommodation','250k stipends/Yr','internship opportunities']
   },
-  {
+ {
     id: 'medscholar-6',
-    title: 'HealthFuture Medical Scholarship',
-    provider: 'HealthFuture Trust',
-    field: 'Medicine',
-    shortDescription: 'Support for medical students with demonstrated academic excellence and community service.',
-    description: 'HealthFuture Trust supports promising medical undergraduates who excel academically and volunteer in community health programs.',
-    eligibility: ['Medical students (MBBS/MBChB)','Minimum 3.2 GPA or equivalent','Evidence of community health involvement'],
-    deadlineText: 'Deadline: 20th November 2025',
-    howToApply: 'Apply through HealthFuture’s online form and attach transcript and statement of purpose.',
-    applicationLink: 'https://example.org/healthfuture-apply',
-    whyApply: ['Tuition support','Clinical mentorship','Networking']
+    title: 'Credence Nigerian Law School Scholarship 2026.',
+    provider: 'Credence Nigerian Law School',
+    field: 'Law',
+    shortDescription: 'Financial support for law students enrolled in the Nigerian Law School for the 2026 academic session.',
+    description: 'The Credence Scholarship is designed to assist high-achieving law students with the costs of their professional legal education, ensuring that financial barriers do not hinder the next generation of legal minds.',
+    eligibility: [
+      'Law students currently enrolled in the Nigerian Law School with a CGPA of 3.5/4.',
+      'Final-year law students & recent graduates awaiting law school admission.',
+      'Demonstrated academic excellence and commitment to the legal profession.'
+    ],
+    deadlineText: 'Deadline: 31st January 2026',
+    howToApply: [
+      'Visit the application link provided below.',
+      'Fill in your personal and academic details in the form.',
+      'Submit required documents: academic transcripts, a letter of recommendation, and a character reference.',
+      'Ensure submission is completed before 11:59pm on 31st January 2026.'
+    ],
+    applicationLink: 'https://docs.google.com/forms/d/1i7wCHfCytQPXl9pQxDsPRb7g982JRpz7EdcjAKSYteE/viewform?edit_requested=true',
+    whyApply: [
+      'Tuition fee support',
+      'Recognition of academic merit',
+      'Networking opportunities with legal professionals'
+    ],
   },
   {
     id: 'bizlead-7',
@@ -329,7 +346,7 @@ const scholarships = [
     eligibility: ['Design students with portfolio','Project brief and prototype images','Statement of impact'],
     deadlineText: 'Deadline: 9th October 2025',
     howToApply: 'Upload portfolio and project brief.',
-    applicationLink: 'https://example.org/designhub',
+    applicationLink: 'https://tefconnect.com/login?redirect=%2Fmyprofile',
     whyApply: ['Prototype funding','Mentorship','Exhibitions']
   },
   {
@@ -359,6 +376,16 @@ const scholarships = [
     whyApply: ['Seed grant','Incubation','Investor demo day']
   }
 ];
+
+// Populate any missing `applicationLink` with a unique placeholder URL
+// These are safe to replace later with real provider links before deployment.
+scholarships.forEach(s => {
+  if (!s.applicationLink) {
+    const rand = Math.random().toString(36).slice(2,9);
+    const key = encodeURIComponent(s.id || rand);
+    s.applicationLink = `https://example.com/apply/${key}?ref=${rand}`;
+  }
+});
 
 /* -------------- App state -------------- */
 const SHOW_INITIAL = 15; // show 15 first, "See more" reveals rest
@@ -447,8 +474,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <p class="muted">${escapeHtml(truncate(s.shortDescription || s.description || '', 140))}</p>
         </div>
         <div class="card-actions">
-          <button class="btn outline details-btn" data-id="${s.id}" aria-controls="modal">View details</button>
-          <a class="btn primary" href="${escapeAttr(s.applicationLink || '#')}" target="_blank" rel="noopener">Apply</a>
+          <button type="button" class="btn outline details-btn" data-id="${s.id}" aria-controls="modal">View details</button>
+          <a class="btn primary" href="${escapeAttr(s.applicationLink || '#') }" target="_blank" rel="noopener">Apply</a>
         </div>
       `;
       cardsEl.appendChild(article);
