@@ -220,4 +220,32 @@ body{margin:0;background:var(--bg);line-height:1.45;font-size:16px;-webkit-font-
   .container{padding:.8rem}
   .btn{padding:.65rem .8rem}
   .searchbar input, .searchbar select { padding:.5rem .6rem }
+
+}
+/* ===============================
+   FIX: Mobile modal scrolling
+   =============================== */
+
+.modal-panel {
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content {
+  overflow-y: auto;
+  max-height: calc(90vh - 2rem);
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 720px) {
+  .modal-panel {
+    height: 95vh;
+    max-height: 95vh;
+    margin: 0.5rem;
+  }
+
+  .modal-content {
+    max-height: calc(95vh - 1.5rem);
+  }
 }
