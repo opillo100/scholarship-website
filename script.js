@@ -167,16 +167,16 @@ const scholarships = [
   },
   {
     id: 'nglead-10',
-    title: 'NG Leadership Scholarship',
-    provider: 'NG Leadership Trust',
-    field: 'Leadership',
-    shortDescription: 'Scholarship for students demonstrating leadership in campus or community initiatives.',
-    description: 'NG Leadership supports students with proven leadership and a plan to scale community impact.',
-    eligibility: ['Active leadership role in student groups or community projects','Statement of leadership achievements','Two referee contacts'],
-    deadlineText: 'Deadline: 18th November 2025',
-    howToApply: 'Submit leadership statement and references via the NG Leadership portal.',
-    applicationLink: 'https://example.org/nglead-apply',
-    whyApply: ['Leadership training','Small grant','Networking']
+    title: 'Tranos intenship program',
+    provider: 'Tranos company',
+    field: 'Tech',
+    shortDescription: 'The Tranos Intenship Program 2026 is an exciting oppotunity for undergraduate trying to get hands-on experience in the tech industry.',
+    description: 'Designed to provide students in strengthing their technical knowldge and problem-solving capacity ',
+    eligibility: ['Enrolled in a university or National Diploma(ND) student ','Have completed at least the second year of study','Hold a minimum of second Class Upper division (CGPA 3.5/5 OR equivalent)', 'be available for a minimum 6 month duration.', 'Note: the program is up to 12 months for ND students'],
+    deadlineText: 'Deadline: 30th January 2026',
+    howToApply: 'Be ready to submit CV/ Resume, academic transcript, proof of student enrollment(ID card), cover latter expressing intrest and career goals.',
+    applicationLink: 'https://tranos.seamlesshiring.com/job/view/7927?utm_source=#/',
+    whyApply: ['professional experience','research development','soft skill development','conducive working environment']
   },
   {
     id: 'arts-11',
