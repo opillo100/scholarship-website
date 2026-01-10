@@ -167,29 +167,29 @@ const scholarships = [
   },
   {
     id: 'nglead-10',
-    title: 'Tranos intenship program',
+    title: 'Tranos Intenship Program',
     provider: 'Tranos company',
     field: 'Tech',
     shortDescription: 'The Tranos Intenship Program 2026 is an exciting oppotunity for undergraduate trying to get hands-on experience in the tech industry.',
-    description: 'Designed to provide students in strengthing their technical knowldge and problem-solving capacity ',
+    description: 'The Tranos Intenship Program 2026 is an exciting oppotunity for undergraduate trying to get hands-on experience in the tech industry.Designed to provide students in strengthing their technical knowldge and problem-solving capacity ',
     eligibility: ['Enrolled in a university or National Diploma(ND) student ','Have completed at least the second year of study','Hold a minimum of second Class Upper division (CGPA 3.5/5 OR equivalent)', 'be available for a minimum 6 month duration.', 'Note: the program is up to 12 months for ND students'],
     deadlineText: 'Deadline: 30th January 2026',
     howToApply: 'Be ready to submit CV/ Resume, academic transcript, proof of student enrollment(ID card), cover latter expressing intrest and career goals.',
     applicationLink: 'https://tranos.seamlesshiring.com/job/view/7927?utm_source=#/',
-    whyApply: ['professional experience','research development','soft skill development','conducive working environment']
+    whyApply: ['professional experience','monthly Stipends','research development','soft skill development','conducive working environment']
   },
   {
     id: 'arts-11',
-    title: 'Screen & Stage Student Bursary',
-    provider: 'StageWorks',
-    field: 'Performing Arts',
-    shortDescription: 'Bursary to support performing arts students staging shows or attending festivals.',
-    description: 'StageWorks supports emerging performers with funding and mentorship to present work locally and regionally.',
-    eligibility: ['Performing arts students or recent graduates','Project proposal or festival invitation','Budget and CV'],
-    deadlineText: 'Deadline: 2nd December 2025',
-    howToApply: 'Upload show proposal and rehearsal plan on the StageWorks portal.',
-    applicationLink: 'https://example.org/stageworks-apply',
-    whyApply: ['Production funding','Mentorship','Showcase opportunities']
+    title: 'TotalEnergies UNDERGRADUATE INTENSHIP PROGRAM',
+    provider: 'TotalEnergies',
+    field: 'Tech',
+    shortDescription: 'The TotalEnergies SIWES intenship program 2026 is a structured trainning opportunity designed for undergraduate students participating in students Industrial Work Experience Scheme(SIWES) ',
+    description: 'The program is organized by TotalEnergies and runs from March to Augest 2026, providing students with hand-on industry experience and professional development.',
+    eligibility: ['be an undergraduate from a recognised tertiry institution','be eligible for the Industrial Training as require by the individual institution ','be available from March to August for the Training', 'be ready to provide all accurate and acedemic information required.','The required documents include: personal details, academic details, SIWES/IT details(where applicable), résumé/CV, and other additional details'],
+    deadlineText: '31st of January, 2026',
+    howToApply: ['Access the official TotalEnergies SIWES Intenship application form.', 'carefully read all instructions.',' complete the form with accurate personal and academic information.','submit the apllication(only once - try to get all the required documents ready).', 'print and save a copy of your responses affter submission for refrence.'],
+    applicationLink: 'https://forms.office.com/pages/responsepage.aspx?id=sJGeMh_i-0igcUVnF-zCjgirAIp64HtCvEPKtFbSP8NUOUkxSzc3NlNYUllRWkpLMFE1UUpEVElDSi4u&origin=lprLink&route=shorturl',
+    whyApply: ['exoposure to professional work environment','pratical work experience','Hands-on training','Enhanced employability']
   },
   {
     id: 'scholar-tech-12',
@@ -206,16 +206,16 @@ const scholarships = [
   },
   {
     id: 'schol-exchange-13',
-    title: 'International Exchange Grant',
-    provider: 'GlobalExchange',
-    field: 'International',
+    title: 'Seplat Energy Applied Technology Training Program',
+    provider: 'Seplat Energy',
+    field: 'Tech',
     shortDescription: 'Funding support for semester exchange or short research visits abroad.',
-    description: 'GlobalExchange helps students access short-term international academic experiences with travel support.',
-    eligibility: ['Accepted to a partner exchange program or research host','Letter of invitation or acceptance','Academic transcript'],
-    deadlineText: 'Deadline: 31st March 2026',
-    howToApply: 'Provide acceptance letter and personal statement on the GlobalExchange portal.',
-    applicationLink: 'https://example.org/globalexchange',
-    whyApply: ['Travel stipend','Housing support','Advisor connections']
+    description: 'Seplat Energy producing Nigeria Unlimitd(SEPNU) is inviting applications from young Nigerians for its 2026 Applied Technology Training Proram. The Seplat Energy Applied Technlogy Training Program offers a hands-on oil and gas learning experience, career growth, and a professinal SEPNU certificate.',
+    eligibility: ['Must be Nigerians','Must have graduated with a minimum of upper credit obtained not earlier than 2023','must have a National Diploma(ND) in any of the following deciplines[chemical engineering, electrical and electonic engineering, mechanical engineering, petroleum engineering technology',' require documents include: complete application form, government issued ID card, ND certificate/statement of result, passport photograph'],
+    deadlineText: 'Deadline: 30st January 2026',
+    howToApply: 'To apply for Seplat Energy Applied Technology Training program, click on the application link to access the portal.',
+    applicationLink: 'https://recruitment.dragnet-solutions.com/SEPNUATTP/',
+    whyApply: ['Oil and gas training','certification','career Devlepment']
   },
   {
     id: 'sciup-14',
